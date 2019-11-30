@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:baselineAligned="false"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+
+    <!-- FRAGMENT: color_list_fragment.xml -->
+    <fragment
+        android:id="@+id/fragment1"
+        class="com.missouristate.betamen.finalproject.MyListFragment"
+        android:layout_width="121dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        tools:layout="@layout/color_list_fragment"></fragment>
+
+
+</LinearLayout>
+
